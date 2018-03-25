@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background: GRAY;
+}
+
+.nav{
+    background-color: rgb(5, 10, 5);
+    color: darkorange;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.nav>li{
+    display: inline-block;
+    padding: 10px;
+}
+.images{
+    width: auto;
+    height:auto;
+    position: relative;
+    left: 14%;
+    margin: 0;
+    clear: both;
+}
+    .images a last child{
+    
+        display: flex;
+        flex-wrap: wrap;
+          
+    }
+
+
+.nav>li>a{
+    color: white;
+    text-decoration: underline;
+}
+
+#imagesProject{
+border: 2px solid steelblue;
+width: auto;
+height: auto;
+
+}
+#images{
+display: inline-block;
+left: 50%;
+margin:3%;
+margin-left: 8%;
+clear: both;
+}
+
+#cdp{
+    font-family: cursive;
+    font-size: 90px;
+    text-align: center;
+    color: steelblue;
+    text-decoration: underline;
+    text-decoration-color:gray;
+}
+
+#image1{
+margin-right:50%; 
+    width: 50%;
+}
+
+#image2{
+    margin:top;
+    width: 50%;
+}
+
